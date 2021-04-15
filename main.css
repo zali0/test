@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navigation {
+  display: flex;
+  background-color: rgb(39, 0, 110);
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation h1 {
+  margin-left: 10px;
+  color: #fff;
+}
+.navigation ul {
+  margin: 0px;
+  display: flex;
+  font-size: 1.5rem;
+  min-height: 10vh;
+  align-items: center;
+}
+.navigation ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style: none;
+}
+.navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.navigation ul li a:hover {
+  text-decoration: underline;
+}
+.section1 {
+  width: 95%;
+  margin: 10px auto;
+  min-height: 50vh;
+  border: 1px solid black;
+  display: flex;
+}
+.section1 .text {
+  width: 50%;
+  padding: 10px;
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+}
+.section1 button {
+  font-size: 1.5em;
+  background-color: #eca9a3;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.section1 .image {
+  width: 50%;
+}
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  margin: 20px;
+}
